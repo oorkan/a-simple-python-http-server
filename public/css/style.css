@@ -1,0 +1,51 @@
+:root {
+    --blue: #0D80FF;
+    --black: #2B2B2B;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--black);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex.center-x {
+  justify-content: center;
+}
+
+.flex.center-y {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.full-width {
+  width: 100%; 
+}
+
+.full-height {
+  height: 100%;
+}
+
+.offset-y {
+  padding: 1rem 0;
+}
+
+.link {
+    color: var(--blue);
+    font-weight: 600;
+}
+
+.no-decor {
+    text-decoration: none;
+}
